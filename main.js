@@ -16,7 +16,7 @@ async function run() {
       const hashtag = $("#js-hashtag-form").val()
       tweetTextArea.value = tweetTextArea.value + " " + hashtag
       tweetTextArea.dispatchEvent(new Event('change'))
-      $(".js-send-button")[1].dispatchEvent(new Event('click'))
+      $(".js-send-button")[0].dispatchEvent(new Event('click'))
     }
   })
 }
