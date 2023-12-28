@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "manifest_version": 2,
   "content_scripts": [{
-    "matches": [ "https://tweetdeck.twitter.com/*" ],
+    "matches": [ "https://twitter.com/i/tweetdeck*" ],
     "css":["style.css"],
     "js": ["main.js"]
   }],
